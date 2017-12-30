@@ -1,15 +1,22 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Title</title>
 		<meta charset="utf-8">
+		<title>スライド置き場</title>
 	</head>
 	<body>
 		<script src="./js/remark-latest.min.js" type="text/javascript"></script>
 		<script src="./js/MathJax/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript" type="text/javascript"></script>
+		<link rel="stylesheet" type="text/css" href="./css/remark-style.css">
 		<script type="text/javascript">
 			var query = window.location.search.substring(1); // クエリを取得
 			var slide = remark.create({
+				ratio: '16:9',
+				navigation: {
+					scroll: true,
+					touch: true,
+					click: true
+				},
 				sourceUrl: query ? "md/" + query : "README.md" // クエリが存在すればそこにあるmd，なければREADME
 			});
 		</script>
