@@ -12,4 +12,4 @@ sksat
 ---
 ## エミュレータとは
 - PCの中に仮想のPCを作る |
-- <div class="fragment"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/VirtualBox_screenshot.png/1200px-VirtualBox_screenshot.png"></div>
+<div class="fragment"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/VirtualBox_screenshot.png/1200px-VirtualBox_screenshot.png"></div>
